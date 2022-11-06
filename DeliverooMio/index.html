@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="=stylesheet" href="style.css" />
+</head>
+<body>
+    <div style="background-image:url(Home.png); background-size:1400px 500px; background-repeat:no-repeat;">
+        <div class="row">
+            <div class="col-xs-4 col-md-6">
+                <div style="margin-top:10px; margin-left:30px">
+                    <img src="logo.png" width="120" height="60" />
+                </div>
+            </div>
+            <div class="col-xs-8 col-md-6">
+                <div style="text-align: right; margin-top: 20px; margin-right:30px">
+                    <button style="font-size: 17px" class="btn btn-light btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Collabora con noi
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Ristoranti</a></li>
+                        <li><a class="dropdown-item" href="#">Lavora con noi</a></li>
+                        <li><a class="dropdown-item" href="#">Deliveroo for work</a></li>
+                    </ul>
+                    <button style="margin-left:10px; font-size:17px" type="button" class="btn btn-light">Registrati o accedi</button>
+
+                    <button style="margin-left: 10px; font-size: 17px" class="btn btn-light btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menu</button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div style="text-align:center; font-size:40px; font-weight:bold; color:white; margin-top:110px">
+                            <p>I piatti dei ristoranti che ami e la <br /> spesa, a domicilio </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div style="text-align:center; font-size:17px; color:white; margin-top:1px">
+                            <p>Inserisci un indirizzo per scoprire le opzioni disponibili nella tua zona</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-9" >
+                        <div style="margin-left:400px; margin-right:50px">
+                            <input style="border-radius:50px;font-size:37px" class="form-control me-2" type="search"  aria-label="Search">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-3">
+                        <div style="margin-left:-210px; margin-top:5px">
+                            <button style="border-radius: 50px; padding: 15px 40px; font-weight:bold; border-color: #00eed4;  background-color: #00eed4; color: white "  >
+                                    Cerca
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12" style="text-align:center; margin-top:10px; margin-bottom:30px">
+                        <p style="color:white; font-size:13px"> <a href="#">Accedi</a> per visualizzare i tuoi indirizzi recenti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:lightgray">
+        <div class="row" style="background-color:white">
+            <div class="col-xs-12" style="margin-left:90px">
+                <img src="loghi.PNG" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-5" style="margin-left:40px; margin-bottom:100px">
+                <div style="background-color:white; border-radius:10px">
+                    <div style="font-size:40px; font-weight:bold; margin-left:40px; margin-top:50px; ">
+                        <p>Segui gli ordini passo <br /> passo</p> <br />
+
+                    </div>
+                    <div style="font-size: 20px; margin-left: 40px; margin-top: -60px">
+                        <p>
+                            I piatti e i prodotti che ami, consegnati in <br />
+                            pochissimo tempo. Vedrai quando il rider ha <br />
+                            ritirato l'ordine, che potrai seguire passo <br />
+                            passo, e riceverai una notifica quando sara' <br />
+                            quasi da te.
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-md-7" style="margin-left:-40px; margin-top:50px;">
+                    <img style=" border-radius: 10px" src="mappa.png" width="740" height="406" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
